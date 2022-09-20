@@ -1,0 +1,89 @@
+
+body{
+
+}
+
+/*/////////Navbar//////*/
+nav{
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cceeff;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #b3e6ff;
+}
+
+/*///////// ...////////*/
+
+ /*/////////HOME////////*/
+
+H1{
+    text-align: center;
+}
+.WEL {
+    border: 5px black;
+    border-radius: 10px;
+    background-color: #cccccc;
+    width: 25%;
+    justify-content: center;
+}
+
+.welh2{
+    text-align: center;
+}
+
+.img-me{
+    height: 50%;
+    width: 80%;
+    margin: 5px 5px 5px 5px;
+    box-sizing: inherit;
+}
+
+
+/*///////////FORMULIER//////////*/
+form{
+    margin: 10px 10px 10px 10px ;
+    padding:10px 10px 10px 10px ;
+}
+
+input label{
+
+}
+
+textarea{
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: vertical;
+}
+
+/*////////footer//////////*/
+footer{
+    background-color: #cceeff;
+    text-align: center;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+}
