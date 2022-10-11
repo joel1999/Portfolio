@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link href="style.css" rel="stylesheet">
+    <!--    icon script-->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="AboutME.html">About me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<body>
 
+<h2 class="Form2">Formulier</h2>
+<form action="#">
+    <div class="mb-3 mt-3">
+        <label for="Name">Naam:</label>
+        <input type="text" class="form-control" id="Name" placeholder="Enter name" name="name">
+    </div>
+    <div class="mb-3 mt-3">
+        <label for="Achternaam">Achternaam:</label>
+        <input type="text" class="form-control" id="Achternaam" placeholder="Enter achternaam" name="achternaam">
+    </div>
+    <div class="mb-3 mt-3">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <label for="comment">Comments:</label>
+    <hr>
+    <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+    <!--                    <div class="mb-3">-->
+    <!--                        <label for="pwd">Password:</label>-->
+    <!--                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">-->
+    <!--                    </div>-->
+    <div class="form-check mb-3">
+        <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+        </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<footer>
+    <i class="fab fa-youtube fa-2x"></i>
+    <i class="fab fa-instagram fa-2x"></i>
+    <i class="fab fa-facebook fa-2x"></i>
+    <p>Copyright © Your Website 2022</p>
+</footer>
+</body>
+
+</html>
